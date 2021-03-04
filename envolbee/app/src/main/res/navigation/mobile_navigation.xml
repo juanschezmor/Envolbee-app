@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.envolbee.ui.HomeFragment"
+        android:label="Inicio"
+
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_aboutenvolbees"
+            app:destination="@id/nav_aboutenvolbees"
+            app:enterAnim="@android:anim/fade_in" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_aboutenvolbees"
+        android:name="com.example.envolbee.ui.AboutEnvolbeesFragment"
+        android:label="About Envolbees"
+        tools:layout="@layout/fragment_aboutenvolbees" />
+
+    <fragment
+        android:id="@+id/nav_productos"
+        android:name="com.example.envolbee.ui.ProductosFragment"
+        android:label="Productos"
+        tools:layout="@layout/fragment_productos" />
+    <fragment
+        android:id="@+id/nav_sobrenosotros"
+        android:name="com.example.envolbee.ui.SobreNosotrosFragment"
+        android:label="Sobre Nosotros"
+        tools:layout="@layout/fragment_sobrenosotros" />
+    <fragment
+        android:id="@+id/nav_contacto"
+        android:name="com.example.envolbee.ui.ContactoFragment"
+        android:label="Contacto"
+        tools:layout="@layout/fragment_contacto" />
+    <fragment
+        android:id="@+id/nav_producto1"
+        android:name="com.example.envolbee.nav_producto1"
+        android:label="Producto 1"
+        tools:layout="@layout/producto1" />
+    <fragment
+        android:id="@+id/nav_producto2"
+        android:name="com.example.envolbee.nav_producto2"
+        android:label="Producto 2"
+        tools:layout="@layout/producto2" />
+</navigation>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f7f3f0"
+    tools:context="ui.ContactoFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Somos un equipo formado por 13 jóvenes emprendedores de 9 nacionalidades diferentes."
+            android:textAlignment="center"
+            android:textColor="#484e50"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Aunque realizamos todo tipo de proyectos, todos persiguen un objetivo común que es el cuidado del medio ambiente."
+            android:textAlignment="center"
+            android:textColor="#484e50"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Por esta razón, decidimos empezar a hacer estos envoltorios que fabricamos con productos ecológicos y que están dirigidos a reemplazar los plásticos de un solo uso, al mismo tiempo que preservan tus alimentos de la mejor manera."
+            android:textAlignment="center"
+            android:textColor="#484e50"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Actualmente nos encontramos en Bilbao, si estáis interesados en saber más sobre nosotros o nuestros envolbees, no dudéis en contactarnos "
+            android:textAlignment="center"
+            android:textColor="#484e50"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/imageView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/sobrenosotros" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/abejitanegra" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="85dp"
+        android:layout_height="135dp"
+        android:layout_gravity="bottom"
+        android:src="@drawable/index3" />
+
+
+</FrameLayout>

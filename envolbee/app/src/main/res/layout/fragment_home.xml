@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f3f0"
+    android:orientation="vertical"
+    android:visibility="visible"
+    tools:context=".ui.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="45dp"
+        android:layout_height="29dp"
+        android:layout_gravity="center|start|center_horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/abejita" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|right"
+        android:layout_marginTop="150dp"
+        app:srcCompat="@drawable/abejita2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="262dp"
+            android:layout_height="219dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="imagen bocata"
+            android:src="@drawable/bocata" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="ECOLÓGICOS, REUTILIZABLES Y ARTESANALES"
+            android:textColor="#353332"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="ENVOLBEE"
+            android:textColor="#353332"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="221dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Envoltorios ecológicos y reutilizables a base de cera de abeja natural, resina de pino y aceites vegetales. ¡La alternativa definitiva al papel film y aluminio!"
+            android:textColor="#353332"
+            android:textSize="12sp"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="261dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="232dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/ecologicos" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/lavables" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/artesanales" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ECOLÓGICOS"
+                android:textColor="#484e50"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="LAVABLES, REUTILIZABLES Y COMPOSTABLES"
+                android:textColor="#484e50"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="ARTESANALES"
+                android:textColor="#484e50"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="MasInfO1nClick"
+                android:text="Más información."
+                android:textColor="#FEC940"
+                android:textSize="8sp"
+                app:backgroundTint="#F7F3F0" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="MasInfO1nClick"
+                android:text="Más información."
+                android:textColor="#FEC940"
+                android:textSize="8sp"
+                app:backgroundTint="#F7F3F0" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="MasInfO1nClick"
+                android:text="Más información."
+                android:textColor="#FEC940"
+                android:textSize="8sp"
+                app:backgroundTint="#F7F3F0" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/index2" />
+
+
+</FrameLayout>

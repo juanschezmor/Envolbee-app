@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fondo">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="47dp"
+        android:layout_height="35dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginTop="175dp"
+        android:layout_marginRight="50dp"
+        app:srcCompat="@drawable/abejita" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="86dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/index" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/volver"
+            android:layout_width="69dp"
+            android:layout_height="52dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="0dp"
+            android:adjustViewBounds="true"
+            android:onClick="VolverOnClick2"
+            android:padding="20dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/leftarrow" />
+
+        <ImageView
+            android:id="@+id/imageView13"
+            android:layout_width="154dp"
+            android:layout_height="219dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="@color/black"
+            app:srcCompat="@drawable/producto1" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PACK ENVOLBEE 1"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15€"
+            android:textAlignment="center"
+            android:textColor="@color/abejita" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pack de 3 envoltorios ecológicos de distinto tamaño: 20×20  25×25   30×30."
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Link directo a la web:"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/webproducto1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:text="https://www.envolbee.com/producto/pack-envolbee-1/"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+</FrameLayout>
